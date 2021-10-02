@@ -19,7 +19,6 @@ def countdown():
         time.sleep(1)
     print("\nYour time is up!")
     print("You failed!!")
-    return print
 
 #Force the timer to run simultaneously with other functions
 countdown_thread = threading.Thread(target=countdown)
